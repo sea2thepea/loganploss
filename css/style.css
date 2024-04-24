@@ -1,7 +1,21 @@
-body{
-    margin: 0;
-    text-align: center;
+html{
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+}
+
+.main-header h1{
     /* subject to change */
-    font-family: 'Lato', sans-serif;
-    color: #2C4C79 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2C4C79;
+    font-size:4.5em;
+    color:#fff;
+    max-width: min-content;
+    position:relative;
+    margin: 0;
+    margin-left:.5em;
+    top:-10px;
+    padding:.5em;
+    padding-top: 2.75em;
+
 }
