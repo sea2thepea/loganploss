@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding:0;
+    background-color: #181919;
 }
 
 .top-nav-list {
@@ -11,7 +12,7 @@ body {
 }
 
 .top-nav-list li {
-    color:black;
+    color:whitesmoke;
     list-style: none;
     display: inherit;
     margin-right: 2.5em;
@@ -74,12 +75,12 @@ body {
     padding:1.3em;
 }
 a {
-    color:rgb(80, 79, 79);
+    color:whitesmoke;
     text-decoration: none;
     
 }
 a:visited {
-    color:black;
+    color:whitesmoke;
     text-decoration: none;
 }
 a:hover {
