@@ -58,9 +58,20 @@ body {
     font-size: 1.75em;
     line-height: 2em;
 }
-#p1, #p3 {
+.pleft {
     background-color: #2C4C79;
+    float:left;
+}
+.pright {
+    background-color: #464b4f;
+    float:right;
+}
+.pleft, .pright {
+    margin-bottom: 4em;
     color:whitesmoke;
+    display: block;
+    width:60%;
+    padding:1.3em;
 }
 a {
     color:rgb(80, 79, 79);
@@ -73,4 +84,14 @@ a:visited {
 }
 a:hover {
     font-size:2em ;
+}
+.intext-link {
+    color:#7fb4ff;
+}
+
+.intext-link:visited {
+    color:#7fb4ff;
+}
+.intext-link:hover {
+    font-size:1em;
 }
