@@ -1,11 +1,10 @@
 body {
     margin:0;
     padding:0;
+    background-color: #181919;
     
 }
-.page-wrapper {
-    background-color: #181919;
-}
+
 
 .top-nav-list {
     display:inline-flex;
