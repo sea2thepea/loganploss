@@ -1,100 +1,129 @@
 body {
-    margin:0;
-    padding:0;
-    background-color: #181919;
-    
+  margin: 0;
+  padding: 0;
+  background-color: #181919;
 }
 
-
 .top-nav-list {
-    display:inline-flex;
-    text-align: center;
-    justify-content: flex-start;
-    position: absolute;
+  display: inline-flex;
+  text-align: center;
+  justify-content: flex-start;
+  position: absolute;
 }
 
 .top-nav-list li {
-    color:whitesmoke;
-    list-style: none;
-    display: inherit;
-    margin-right: 2.5em;
-    font-size: 1.5em;
-    border-left: black 1px solid;
-    padding: 0 1.2em;
-    margin:auto;
+  color: whitesmoke;
+  list-style: none;
+  display: inherit;
+  margin-right: 2.5em;
+  font-size: 1.5em;
+  border-left: black 1px solid;
+  padding: 0 1.2em;
+  margin: auto;
 }
 #last {
-    border-right:black 1px solid;
+  border-right: black 1px solid;
 }
 .main-header {
-    color:whitesmoke;
-    flex:1;
+  color: whitesmoke;
+  flex: 1;
+  margin-top: 2.5em;
 }
-.main-header h1{  
-    margin-top:0.2em;
-    font-size: 6em;
-    float:top;
-    padding:-0.5em 0 0 4em;
-    background: #2C4C79;
-    min-width: 620px;
-    
+.main-header h1 {
+  margin-top: 0.2em;
+  font-size: 6em;
+  float: top;
+  padding: -0.5em 0 0 4em;
+  background: #255887;
+  min-width: 620px;
 }
-.main-header h2{
-    margin: -2em 0 0.25em -5em;
-    padding: 0.5em;
-    background-color: #2C4C79;
-
+.main-header h2 {
+  margin: -2em 0 0.25em -5em;
+  padding: 0.5em;
+  background-color: #255887;
 }
 
 #favicon {
-    display:flex;
-    float:left;
-    width:300px;
-    height: auto;
-    border-radius: 50%;
-    margin: 0.5em 0.6em 0 0.5em;
-    position: relative;
-    border:black solid 2px;
+  display: flex;
+  float: left;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin: -1.3em 0.6em 0 0.5em;
+  position: relative;
+  border: black solid 2px;
 }
 .home-page {
-    margin-top: 10em;
-    font-size: 1.75em;
-    line-height: 2em;
+  margin-top: 10em;
+  font-size: 1.75em;
+  line-height: 2em;
 }
 .pleft {
-    background-color: #2C4C79;
-    float:left;
+  background-color: #255887;
+  float: left;
 }
 .pright {
-    background-color: #464b4f;
-    float:right;
+  background-color: #464b4f;
+  float: right;
 }
-.pleft, .pright {
-    margin-bottom: 4em;
-    color:whitesmoke;
-    display: block;
-    width:60%;
-    padding:1.3em;
+.pleft,
+.pright {
+  margin-bottom: 4em;
+  color: whitesmoke;
+  display: block;
+  width: 60%;
+  padding: 1.3em;
 }
 a {
-    color:whitesmoke;
-    text-decoration: none;
-    
+  color: whitesmoke;
+  text-decoration: none;
 }
 a:visited {
-    color:whitesmoke;
-    text-decoration: none;
+  color: whitesmoke;
+  text-decoration: none;
 }
 a:hover {
-    font-size:2em ;
+  font-size: 2em;
 }
 .intext-link {
-    color:#7fb4ff;
+  color: #7fb4ff;
 }
 
 .intext-link:visited {
-    color:#7fb4ff;
+  color: #7fb4ff;
 }
 .intext-link:hover {
-    font-size:1em;
+  font-size: 1em;
+}
+.music-content {
+  width: fit-content;
+  height: fit-content;
+  display: inline-flex;
+  margin-top: 10em;
+  margin-left: 3em;
+  margin-right: auto;
+  float: left;
+}
+.music-content h1,
+p {
+  color: whitesmoke;
+}
+.music-content h1 {
+  display: inline-flex;
+  font-size: 5em;
+  justify-content: flex-end;
+  margin: 0 auto 0 1em;
+}
+.music-content-right {
+  display: inline-block;
+}
+.music-content p {
+  display: flexbox;
+  margin: 0 auto 0 2rem;
+}
+.music-content ul {
+  display: flexbox;
+}
+#cenRide {
+  width: 40em;
 }
