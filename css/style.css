@@ -128,13 +128,12 @@ p {
   list-style: none;
   line-height: 3em;
   font-size: 3em;
-  text-decoration: underline whitesmoke;
+  text-decoration: underline 3px whitesmoke;
 }
 .music-content a:hover {
   font-size: 1em;
   color:#255887;
-  
-
+  text-decoration: underline 3px #255887;
 }
 #cenRide {
   width: 640px;
@@ -151,4 +150,7 @@ p {
   width:25%;
   height:auto;
   margin:2em;
+}
+#art-content-favicon {
+  float:inline-start;
 }
