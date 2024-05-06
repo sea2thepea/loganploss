@@ -1,7 +1,16 @@
+@font-face {
+  font-family:'AlexBrush';
+  src: url("../fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #181919;
+  font-family: 'OpenSans', Verdana, sans-serif;
 }
 
 .top-nav-list {
@@ -36,6 +45,7 @@ body {
   padding: -0.5em 0 0 4em;
   background: #255887;
   min-width: 620px;
+  font-family: 'AlexBrush', Verdana, sans-serif;
 }
 .main-header h2 {
   margin: -2em 0 0.25em -5em;
